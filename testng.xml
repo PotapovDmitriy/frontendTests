@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TaskLists" verbose="1" parallel="tests">
+    <parameter name="browser" value="chrome" />
+    <parameter name="screen" value="1024x780" />
+    <test name="Wikipedia" >
+        <classes>
+            <class name="com.example.tests.WikiMainFuncTest" />
+        </classes>
+    </test>
+
+</suite>
